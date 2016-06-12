@@ -1,3 +1,15 @@
+// Variables
+
+$col-1: 20%;
+$col-2: 40%;
+$col-3: 60%;
+$col-4: 80%;
+
+$row-1: 0%;
+$row-2: 20%;
+$row-3: 50%;
+$row-4: 80%;
+
 @font-face{
 	font-family: 'Roboto';
 	src: url('fonts/Roboto.ttf');
@@ -13,7 +25,7 @@ body{
 	padding: 0;
 	font-family: Roboto;
 	font-size: 13px;
-	background: #3d3d3d;
+	background: rgb(47, 50, 59);
 }
 
 // Navbar
@@ -25,7 +37,7 @@ nav{
 		margin: 0;
 		padding: 0;
 		overflow: hidden;
-		background-color: #333;
+		background-color: #24262d;
 	}
 
 	li {
@@ -51,7 +63,7 @@ nav{
 	}
 
 	.active{
-    	background-color: #E9D460;
+    	background-color: #f6a821;
 	}
 
 }
@@ -69,6 +81,12 @@ nav{
 
 	.element{
 		position: absolute;
+		color: #ff541a;
+	}
+
+	.crochet{
+		color: #ff8080;
+		padding: 6px;
 	}
 	
 	.profil-image{
@@ -78,112 +96,111 @@ nav{
 		height: 100%;
 	}
 
-
 	.desc-name{
-		top: 0%;
-		left: 20%;
-	}
-
-	.desc-club{
-		top: 80%;
-		left: 40%;
-	}
-
-	.label-club{
-		top: 70%;
-		left: 40%;
+		top: $row-1;
+		left: $col-1;
+		font-size: 22px;
 	}
 
 	.desc-born{
-		top: 80%;
-		left: 60%;
+		top: $row-2;
+		left: $col-2;
 	}
 
 	.label-born{
-		top: 70%;
-		left: 60%;
+		top: $row-2 - 10%;
+		left: $col-2;
 	}
 
 	.desc-age{
-		top: 80%;
-		left: 80%;
+		top: $row-3;
+		left: $col-2;
 	}
 
 	.label-age{
-		top: 70%;
-		left: 80%;
-	}
-
-	.desc-weight{
-		top: 20%;
-		left: 80%;
-	}
-
-	.label-weight{
-		top: 10%;
-		left: 80%;
-	}
-
-	.desc-tall{
-		top: 50%;
-		left: 80%;
-	}
-
-	.label-tall{
-		top: 40%;
-		left: 80%;
-	}
-
-	.desc-position{
-		top: 3;
-		left: 20%;
-	}
-
-	.label-position{
-		top: 10%;
-		left: 20%;
-	}
-
-	.desc-team{
-		top: 3;
-		left: 20%;
-	}
-
-	.label-team{
-		top: 10%;
-		left: 20%;
+		top: $row-3 - 10%;
+		left: $col-2;
 	}
 
 	.desc-experience{
-		top: 3;
-		left: 20%;
+		top: $row-4;
+		left: $col-2;
 	}
 
 	.label-experience{
-		top: 10%;
-		left: 20%;
+		top: $row-4 - 10%;
+		left: $col-2;
 	}
 
-	.desc-overall{
-		top: 3;
-		left: 20%;
+	.desc-position{
+		top: $row-2;
+		left: $col-3;
 	}
 
-	.label-overall{
-		top: 10%;
-		left: 20%;
+	.label-position{
+		top: $row-2 - 10%;
+		left: $col-3;
+	}
+
+	.desc-tall{
+		top: $row-3;
+		left: $col-3;
+	}
+
+	.label-tall{
+		top: $row-3 - 10%;
+		left: $col-3;
+	}
+
+	.desc-weight{
+		top: $row-4;
+		left: $col-3;
+	}
+
+	.label-weight{
+		top: $row-4 - 10%;
+		left: $col-3;
+	}
+
+	.desc-club{
+		top: $row-2;
+		left: $col-4;
+	}
+
+	.label-club{
+		top: $row-2 - 10%;
+		left: $col-4;
+	}
+
+	.desc-team{
+		top: $row-3;
+		left: $col-4;
+	}
+
+	.label-team{
+		top: $row-3 - 10%;
+		left: $col-4;
 	}
 
 	.desc-nb-test{
-		top: 3;
-		left: 20%;
+		top: $row-4;
+		left: $col-4;
 	}
 
 	.label-nb-test{
-		top: 10%;
-		left: 20%;
+		top: $row-4 - 10%;
+		left: $col-4;
 	}
 
+	.desc-overall{
+		top: $row-3;
+		left: $col-1;
+	}
+
+	.label-overall{
+		top: $row-2 + 10%;
+		left: $col-1;
+	}
 
 }
 

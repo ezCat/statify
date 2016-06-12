@@ -11,14 +11,14 @@ body {
   padding: 0;
   font-family: Roboto;
   font-size: 13px;
-  background: #3d3d3d; }
+  background: #2f323b; }
 
 nav ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #333; }
+  background-color: #24262d; }
 
 nav li {
   float: left; }
@@ -39,7 +39,7 @@ nav .brand {
   text-transform: uppercase; }
 
 nav .active {
-  background-color: #E9D460; }
+  background-color: #f6a821; }
 
 .resume-line {
   position: relative;
@@ -50,7 +50,11 @@ nav .active {
   font-weight: 900;
   font-size: 18px; }
   .resume-line .element {
-    position: absolute; }
+    position: absolute;
+    color: #ff541a; }
+  .resume-line .crochet {
+    color: #ff8080;
+    padding: 6px; }
   .resume-line .profil-image {
     top: 0;
     left: 0;
@@ -58,66 +62,67 @@ nav .active {
     height: 100%; }
   .resume-line .desc-name {
     top: 0%;
-    left: 20%; }
-  .resume-line .desc-club {
-    top: 80%;
-    left: 40%; }
-  .resume-line .label-club {
-    top: 70%;
-    left: 40%; }
+    left: 20%;
+    font-size: 22px; }
   .resume-line .desc-born {
-    top: 80%;
-    left: 60%; }
-  .resume-line .label-born {
-    top: 70%;
-    left: 60%; }
-  .resume-line .desc-age {
-    top: 80%;
-    left: 80%; }
-  .resume-line .label-age {
-    top: 70%;
-    left: 80%; }
-  .resume-line .desc-weight {
     top: 20%;
-    left: 80%; }
-  .resume-line .label-weight {
+    left: 40%; }
+  .resume-line .label-born {
     top: 10%;
-    left: 80%; }
-  .resume-line .desc-tall {
+    left: 40%; }
+  .resume-line .desc-age {
     top: 50%;
-    left: 80%; }
-  .resume-line .label-tall {
+    left: 40%; }
+  .resume-line .label-age {
     top: 40%;
-    left: 80%; }
+    left: 40%; }
+  .resume-line .desc-experience {
+    top: 80%;
+    left: 40%; }
+  .resume-line .label-experience {
+    top: 70%;
+    left: 40%; }
   .resume-line .desc-position {
-    top: 3;
-    left: 20%; }
+    top: 20%;
+    left: 60%; }
   .resume-line .label-position {
     top: 10%;
-    left: 20%; }
+    left: 60%; }
+  .resume-line .desc-tall {
+    top: 50%;
+    left: 60%; }
+  .resume-line .label-tall {
+    top: 40%;
+    left: 60%; }
+  .resume-line .desc-weight {
+    top: 80%;
+    left: 60%; }
+  .resume-line .label-weight {
+    top: 70%;
+    left: 60%; }
+  .resume-line .desc-club {
+    top: 20%;
+    left: 80%; }
+  .resume-line .label-club {
+    top: 10%;
+    left: 80%; }
   .resume-line .desc-team {
-    top: 3;
-    left: 20%; }
+    top: 50%;
+    left: 80%; }
   .resume-line .label-team {
-    top: 10%;
-    left: 20%; }
-  .resume-line .desc-experience {
-    top: 3;
-    left: 20%; }
-  .resume-line .label-experience {
-    top: 10%;
-    left: 20%; }
+    top: 40%;
+    left: 80%; }
+  .resume-line .desc-nb-test {
+    top: 80%;
+    left: 80%; }
+  .resume-line .label-nb-test {
+    top: 70%;
+    left: 80%; }
   .resume-line .desc-overall {
-    top: 3;
+    top: 50%;
     left: 20%; }
   .resume-line .label-overall {
-    top: 10%;
-    left: 20%; }
-  .resume-line .desc-nb-test {
-    top: 3;
-    left: 20%; }
-  .resume-line .label-nb-test {
-    top: 10%;
+    top: 30%;
     left: 20%; }
 
 .bloc {
