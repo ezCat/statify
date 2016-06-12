@@ -1,0 +1,164 @@
+@font-face {
+  font-family: 'Roboto';
+  src: url("fonts/Roboto.ttf"); }
+
+html {
+  margin: 0;
+  padding: 0; }
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Roboto;
+  font-size: 13px;
+  background: #3d3d3d; }
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333; }
+
+nav li {
+  float: left; }
+
+nav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none; }
+
+nav li a:hover {
+  background-color: #1D1D1D; }
+
+nav .brand {
+  font-weight: 700;
+  letter-spacing: 0.3em;
+  text-transform: uppercase; }
+
+nav .active {
+  background-color: #E9D460; }
+
+.resume-line {
+  position: relative;
+  height: 25%;
+  width: 90%;
+  margin: 0 auto;
+  text-transform: uppercase;
+  font-weight: 900;
+  font-size: 18px; }
+  .resume-line .element {
+    position: absolute; }
+  .resume-line .profil-image {
+    top: 0;
+    left: 0;
+    width: 20%;
+    height: 100%; }
+  .resume-line .desc-name {
+    top: 0%;
+    left: 20%; }
+  .resume-line .desc-club {
+    top: 80%;
+    left: 40%; }
+  .resume-line .label-club {
+    top: 70%;
+    left: 40%; }
+  .resume-line .desc-born {
+    top: 80%;
+    left: 60%; }
+  .resume-line .label-born {
+    top: 70%;
+    left: 60%; }
+  .resume-line .desc-age {
+    top: 80%;
+    left: 80%; }
+  .resume-line .label-age {
+    top: 70%;
+    left: 80%; }
+  .resume-line .desc-weight {
+    top: 20%;
+    left: 80%; }
+  .resume-line .label-weight {
+    top: 10%;
+    left: 80%; }
+  .resume-line .desc-tall {
+    top: 50%;
+    left: 80%; }
+  .resume-line .label-tall {
+    top: 40%;
+    left: 80%; }
+  .resume-line .desc-position {
+    top: 3;
+    left: 20%; }
+  .resume-line .label-position {
+    top: 10%;
+    left: 20%; }
+  .resume-line .desc-team {
+    top: 3;
+    left: 20%; }
+  .resume-line .label-team {
+    top: 10%;
+    left: 20%; }
+  .resume-line .desc-experience {
+    top: 3;
+    left: 20%; }
+  .resume-line .label-experience {
+    top: 10%;
+    left: 20%; }
+  .resume-line .desc-overall {
+    top: 3;
+    left: 20%; }
+  .resume-line .label-overall {
+    top: 10%;
+    left: 20%; }
+  .resume-line .desc-nb-test {
+    top: 3;
+    left: 20%; }
+  .resume-line .label-nb-test {
+    top: 10%;
+    left: 20%; }
+
+.bloc {
+  width: 97%;
+  margin: 20px auto; }
+
+.title {
+  font-size: 24px;
+  font-style: italic;
+  font-weight: 700;
+  color: #E9D460;
+  letter-spacing: 0.05em;
+  margin-bottom: 7px;
+  text-transform: uppercase; }
+
+table {
+  width: 100%;
+  background-color: #1D1D1D;
+  color: #fff;
+  border: none;
+  font-size: 14px;
+  margin: 10px auto;
+  border-collapse: collapse; }
+
+tr {
+  line-height: 2.5em;
+  background-color: #352f33; }
+
+tr:nth-child(even) {
+  background-color: #251e26; }
+
+tr:hover td {
+  background: #fff;
+  color: #2D2D2D; }
+
+td {
+  text-align: center; }
+
+th {
+  background: #251e26;
+  color: #fff;
+  font-size: 14px;
+  letter-spacing: 1;
+  text-transform: uppercase; }
