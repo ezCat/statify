@@ -68,7 +68,7 @@ nav{
 	}
 
 	.active{
-    	background-color: $orange;
+    	background-color: $grey-opaque;
 	}
 
 }
@@ -86,8 +86,8 @@ nav{
 // Player page
 
 .profil{
-	width: 80%;
-	margin: 10px auto;
+	width: 70%;
+	margin: 40px auto;
 }
 
 .bloc-float{
@@ -103,7 +103,7 @@ nav{
 .box{
 	height: 60px;
 	color: #f3F3F3;
-	background-color: $grey-opaque;
+	background-color: $orange;
 	margin-bottom: 10px;
 	padding: 10px;
 
@@ -117,13 +117,11 @@ nav{
 }
 
 .photo{
-	height: 100%;
-	float: left;
+	height: 200px;
 }
 
 .overall{
-	height: 100%;
-	float: left;
+	height: 200px;
 }
 
 

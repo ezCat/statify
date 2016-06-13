@@ -39,7 +39,7 @@ nav .brand {
   text-transform: uppercase; }
 
 nav .active {
-  background-color: #f6a821; }
+  background-color: #3b3e46; }
 
 .title {
   font-size: 24px;
@@ -51,8 +51,8 @@ nav .active {
   text-transform: uppercase; }
 
 .profil {
-  width: 80%;
-  margin: 10px auto; }
+  width: 70%;
+  margin: 40px auto; }
 
 .bloc-float {
   float: left;
@@ -65,7 +65,7 @@ nav .active {
 .box {
   height: 60px;
   color: #f3F3F3;
-  background-color: #3b3e46;
+  background-color: #f6a821;
   margin-bottom: 10px;
   padding: 10px; }
   .box .box-title {
@@ -74,12 +74,10 @@ nav .active {
     font-size: 20px; }
 
 .photo {
-  height: 100%;
-  float: left; }
+  height: 200px; }
 
 .overall {
-  height: 100%;
-  float: left; }
+  height: 200px; }
 
 table {
   width: 100%;
