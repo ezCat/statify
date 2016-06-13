@@ -41,94 +41,6 @@ nav .brand {
 nav .active {
   background-color: #f6a821; }
 
-.resume-line {
-  position: relative;
-  height: 25%;
-  width: 90%;
-  margin: 0 auto;
-  text-transform: uppercase;
-  font-weight: 900;
-  font-size: 18px; }
-  .resume-line .element {
-    position: absolute;
-    color: #ff541a; }
-  .resume-line .crochet {
-    color: #ff8080;
-    padding: 6px; }
-  .resume-line .profil-image {
-    top: 0;
-    left: 0;
-    width: 20%;
-    height: 100%; }
-  .resume-line .desc-name {
-    top: 0%;
-    left: 20%;
-    font-size: 22px; }
-  .resume-line .desc-born {
-    top: 20%;
-    left: 40%; }
-  .resume-line .label-born {
-    top: 10%;
-    left: 40%; }
-  .resume-line .desc-age {
-    top: 50%;
-    left: 40%; }
-  .resume-line .label-age {
-    top: 40%;
-    left: 40%; }
-  .resume-line .desc-experience {
-    top: 80%;
-    left: 40%; }
-  .resume-line .label-experience {
-    top: 70%;
-    left: 40%; }
-  .resume-line .desc-position {
-    top: 20%;
-    left: 60%; }
-  .resume-line .label-position {
-    top: 10%;
-    left: 60%; }
-  .resume-line .desc-tall {
-    top: 50%;
-    left: 60%; }
-  .resume-line .label-tall {
-    top: 40%;
-    left: 60%; }
-  .resume-line .desc-weight {
-    top: 80%;
-    left: 60%; }
-  .resume-line .label-weight {
-    top: 70%;
-    left: 60%; }
-  .resume-line .desc-club {
-    top: 20%;
-    left: 80%; }
-  .resume-line .label-club {
-    top: 10%;
-    left: 80%; }
-  .resume-line .desc-team {
-    top: 50%;
-    left: 80%; }
-  .resume-line .label-team {
-    top: 40%;
-    left: 80%; }
-  .resume-line .desc-nb-test {
-    top: 80%;
-    left: 80%; }
-  .resume-line .label-nb-test {
-    top: 70%;
-    left: 80%; }
-  .resume-line .desc-overall {
-    top: 50%;
-    left: 20%; }
-  .resume-line .label-overall {
-    top: 30%;
-    left: 20%; }
-
-.bloc {
-  width: 97%;
-  margin: 20px auto; }
-
 .title {
   font-size: 24px;
   font-style: italic;
@@ -137,6 +49,37 @@ nav .active {
   letter-spacing: 0.05em;
   margin-bottom: 7px;
   text-transform: uppercase; }
+
+.profil {
+  width: 80%;
+  margin: 10px auto; }
+
+.bloc-float {
+  float: left;
+  width: 30%; }
+
+.bloc-float-big {
+  float: left;
+  width: 70%; }
+
+.box {
+  height: 60px;
+  color: #f3F3F3;
+  background-color: #3b3e46;
+  margin-bottom: 10px;
+  padding: 10px; }
+  .box .box-title {
+    font-size: 12px; }
+  .box .box-desc {
+    font-size: 20px; }
+
+.photo {
+  height: 100%;
+  float: left; }
+
+.overall {
+  height: 100%;
+  float: left; }
 
 table {
   width: 100%;

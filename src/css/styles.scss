@@ -10,6 +10,11 @@ $row-2: 20%;
 $row-3: 50%;
 $row-4: 80%;
 
+$orange: #f6a821;
+$grey-opaque: #3b3e46;
+$grey-light: rgb(47, 50, 59);
+$grey-darker: #24262d;
+
 @font-face{
 	font-family: 'Roboto';
 	src: url('fonts/Roboto.ttf');
@@ -25,7 +30,7 @@ body{
 	padding: 0;
 	font-family: Roboto;
 	font-size: 13px;
-	background: rgb(47, 50, 59);
+	background: $grey-light;
 }
 
 // Navbar
@@ -37,7 +42,7 @@ nav{
 		margin: 0;
 		padding: 0;
 		overflow: hidden;
-		background-color: #24262d;
+		background-color: $grey-darker;
 	}
 
 	li {
@@ -63,153 +68,9 @@ nav{
 	}
 
 	.active{
-    	background-color: #f6a821;
+    	background-color: $orange;
 	}
 
-}
-
-// Player page
-
-.resume-line{
-	position: relative;
-	height: 25%;
-	width: 90%;
-	margin: 0 auto;
-	text-transform: uppercase;
-	font-weight: 900;
-	font-size: 18px;
-
-	.element{
-		position: absolute;
-		color: #ff541a;
-	}
-
-	.crochet{
-		color: #ff8080;
-		padding: 6px;
-	}
-	
-	.profil-image{
-		top: 0;
-		left: 0;
-		width: 20%;
-		height: 100%;
-	}
-
-	.desc-name{
-		top: $row-1;
-		left: $col-1;
-		font-size: 22px;
-	}
-
-	.desc-born{
-		top: $row-2;
-		left: $col-2;
-	}
-
-	.label-born{
-		top: $row-2 - 10%;
-		left: $col-2;
-	}
-
-	.desc-age{
-		top: $row-3;
-		left: $col-2;
-	}
-
-	.label-age{
-		top: $row-3 - 10%;
-		left: $col-2;
-	}
-
-	.desc-experience{
-		top: $row-4;
-		left: $col-2;
-	}
-
-	.label-experience{
-		top: $row-4 - 10%;
-		left: $col-2;
-	}
-
-	.desc-position{
-		top: $row-2;
-		left: $col-3;
-	}
-
-	.label-position{
-		top: $row-2 - 10%;
-		left: $col-3;
-	}
-
-	.desc-tall{
-		top: $row-3;
-		left: $col-3;
-	}
-
-	.label-tall{
-		top: $row-3 - 10%;
-		left: $col-3;
-	}
-
-	.desc-weight{
-		top: $row-4;
-		left: $col-3;
-	}
-
-	.label-weight{
-		top: $row-4 - 10%;
-		left: $col-3;
-	}
-
-	.desc-club{
-		top: $row-2;
-		left: $col-4;
-	}
-
-	.label-club{
-		top: $row-2 - 10%;
-		left: $col-4;
-	}
-
-	.desc-team{
-		top: $row-3;
-		left: $col-4;
-	}
-
-	.label-team{
-		top: $row-3 - 10%;
-		left: $col-4;
-	}
-
-	.desc-nb-test{
-		top: $row-4;
-		left: $col-4;
-	}
-
-	.label-nb-test{
-		top: $row-4 - 10%;
-		left: $col-4;
-	}
-
-	.desc-overall{
-		top: $row-3;
-		left: $col-1;
-	}
-
-	.label-overall{
-		top: $row-2 + 10%;
-		left: $col-1;
-	}
-
-}
-
-.bloc{
-	width: 97%;
-	margin: 20px auto;
-	// border: 1px solid #251e26;
-	// border-radius: 30px;
-	// background: #2D2D2D;
 }
 
 .title{
@@ -221,6 +82,51 @@ nav{
 	margin-bottom: 7px;
 	text-transform: uppercase;
 }
+
+// Player page
+
+.profil{
+	width: 80%;
+	margin: 10px auto;
+}
+
+.bloc-float{
+	float: left;
+	width: 30%;
+}
+
+.bloc-float-big{
+	float: left;
+	width: 70%;
+}
+
+.box{
+	height: 60px;
+	color: #f3F3F3;
+	background-color: $grey-opaque;
+	margin-bottom: 10px;
+	padding: 10px;
+
+	.box-title{
+		font-size: 12px;
+	}
+
+	.box-desc{
+		font-size: 20px;
+	}
+}
+
+.photo{
+	height: 100%;
+	float: left;
+}
+
+.overall{
+	height: 100%;
+	float: left;
+}
+
+
 
 
 // Table
