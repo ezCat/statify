@@ -10,15 +10,14 @@ body {
   margin: 0;
   padding: 0;
   font-family: Roboto;
-  font-size: 13px;
-  background: #2f323b; }
+  font-size: 13px; }
 
 nav ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #24262d; }
+  background-color: #2f323b; }
 
 nav li {
   float: left; }
@@ -31,7 +30,8 @@ nav li a {
   text-decoration: none; }
 
 nav li a:hover {
-  background-color: #1D1D1D; }
+  opacity: 0.7;
+  color: #fff; }
 
 nav .brand {
   font-weight: 700;
@@ -42,7 +42,7 @@ nav .active {
   background-color: #3b3e46; }
 
 .title {
-  font-size: 24px;
+  font-size: 20px;
   font-style: italic;
   font-weight: 700;
   color: #E9D460;
@@ -52,7 +52,8 @@ nav .active {
 
 .profil {
   width: 70%;
-  margin: 40px auto; }
+  margin: 40px auto;
+  border: 1px solid black; }
 
 .bloc-float {
   float: left;
